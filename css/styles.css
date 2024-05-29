@@ -459,6 +459,10 @@ fill:#f4f4fd;
 .container-darc-bg- { 
 display: flex;
     align-items: baseline;
+   
+}
+
+.container-darc-bg-icons { 
     margin-right: 120px;
 }
 
