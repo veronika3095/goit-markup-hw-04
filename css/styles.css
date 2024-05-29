@@ -489,3 +489,49 @@ fill:#f4f4fd;
     max-width: 264px;
 
 }
+
+.icons-footer { 
+display: flex;
+align-items: baseline;
+margin-right: 120px;
+}
+
+.p-icons { 
+font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.icons-footer-ul { 
+display: flex;
+gap: 16px;
+}
+
+.icons-footer-li { 
+width: 40px;
+height: 40px;
+}
+
+.icons-footer-li-a { 
+width: 100%;
+height: 100%;
+background-color:#4d5ae5;
+border-radius:50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.icons-footer-li-a:hover,
+.icons-footer-li-a:focus { 
+    background-color: #31d0aa;
+}
+
+.svg-footer { 
+fill:#f4f4fd;
+}
