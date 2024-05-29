@@ -456,6 +456,11 @@ fill:#f4f4fd;
     padding: 100px 0
 }
 
+.container-darc-bg- { 
+display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
 
 .title-span {
     font-family: "Raleway", sans-serif;
@@ -490,11 +495,6 @@ fill:#f4f4fd;
 
 }
 
-.icons-footer { 
-display: flex;
-align-items: baseline;
-margin-right: 120px;
-}
 
 .p-icons { 
 font-family: "Roboto", sans-serif;
