@@ -426,12 +426,8 @@ box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
 .overlow-images { 
 position: relative;
 overflow: hidden;
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlow-images:hover { 
-transform:translateY(0%);
-}
 
 .overlow { 
 font-family: "Roboto", sans-serif;
@@ -459,8 +455,12 @@ padding: 40px 32px ;
     width: calc((100% - 48px) / 3);
     width: 360px;
     height: 300px;
-}
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
+.images-class:hover { 
+transform: translateY(0%);
+}
 
 
 .container-div-class {
@@ -546,7 +546,7 @@ font-family: "Roboto", sans-serif;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #fff;
-    
+    margin-bottom: 16px;
 }
 
 .icons-footer-ul { 
@@ -557,8 +557,7 @@ gap: 16px;
 .icons-footer-li { 
 width: 40px;
 height: 40px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+ }
 
 .icons-footer-li-a { 
 width: 100%;
@@ -578,4 +577,5 @@ justify-content: center;
 
 .svg-footer { 
 fill:#f4f4fd;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
